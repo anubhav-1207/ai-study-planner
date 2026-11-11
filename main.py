@@ -162,7 +162,7 @@ def index():
         try:
             # Call the Gemini API using the standard gemini-2.5-flash model
             response = client.models.generate_content(
-                model="gemini-2.5-flash",
+                model="gemini-3.8-flash",
                 contents=prompt,
             )
             study_plan = response.text
