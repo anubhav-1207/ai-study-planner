@@ -9,7 +9,7 @@ app = Flask(__name__)
 # It automatically picks up the GEMINI_API_KEY environment variable
 
 
-client = genai.Client(api_key="AQ.Ab8RN6JatUmE213_ltPEsgy4TS-_FLKBkPzNVy5_oGjqiixD-g")
+client = genai.Client(api_key="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")
 
 # Inline HTML and CSS template for the user interface
 HTML_TEMPLATE = """
