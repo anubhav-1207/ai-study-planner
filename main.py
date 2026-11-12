@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # Initialize Groq client
 client = Groq(
-    api_key=os.environ.get("GROQ_API_KEY")
+    api_key=os.environ.get("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")
 )
 
 MODEL = "openai/gpt-oss-120b"
