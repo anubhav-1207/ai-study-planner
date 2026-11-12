@@ -213,9 +213,6 @@ def index():
         if not subjects_val or not days_val:
             study_plan = "Please fill in all required fields."
 
-        elif not os.environ.get("GROQ_API_KEY"):
-            study_plan = "API configuration error. Please contact the administrator."
-
         else:
 
             prompt = f"""
